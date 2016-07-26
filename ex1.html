@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+
+
+body{
+
+
+padding : 50px;
+}
+.bubble {
+    background-color: #5ac4ed;
+    border-radius: 10px;
+    //color: #fac4ed;
+    padding: 55px 115px;
+    padding-top : 45px;
+    position: relative;
+    height : 20px;
+}
+
+.bubble:before {
+
+
+    border-bottom: 0px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-right: 25px solid #5ac4ed;
+    border-left: 25px solid transparent;
+    border-top: 25px solid transparent;
+    bottom: 45px;
+    content: '';
+    position: absolute;
+    left: -48px;
+}
+
+</style>
+</head>
+<body>
+
+<span class="bubble"></span>
+
+
+
+</body>
+</html>
